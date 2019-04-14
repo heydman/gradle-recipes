@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- The contents of this file will be loaded for each web application -->
+<Context>
+    <!-- REWRITE VALVE -->
+    <Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />
+
+    <!-- Speed up context loading -->
+    <JarScanner scanClassPath="false" />
+</Context>
